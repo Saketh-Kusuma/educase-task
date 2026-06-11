@@ -6,7 +6,7 @@ const AccountSettings = () => {
   return (
     <div className="flex flex-col items-start w-full h-full py-5">
         <div className="flex flex-col items-start w-full h-full gap-5">
-            <h1 className="text-[18px] px-5  leading-[21px] font-rubik font-medium">Account Settings</h1>
+            <h1 className="text-[18px] px-5 leading-[21px] font-rubik font-medium">Account Settings</h1>
         <div className="flex flex-col pt-8 w-full h-full bg-gray-100 gap-6">
             <div className="flex px-5 ">
                 <div className="relative pe-5">

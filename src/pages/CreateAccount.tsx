@@ -145,7 +145,7 @@ const CreateAccount = () => {
             </div>
             </div>
     </div>
-              <div className="w-full h-max pb-12">
+              <div className="w-full h-max pb-5">
                 <button 
                 className="bg-primary text-white w-full h-[46px] rounded-[6px] text-[16px] font-rubik font-medium disabled:opacity-[.4] disabled:cursor-not-allowed" 
                 disabled={!formData.fullName || !formData.email || !formData.password} 

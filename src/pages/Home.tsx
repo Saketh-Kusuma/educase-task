@@ -11,7 +11,7 @@ const Home = () => {
         <p className="text-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         </p>
-        <div className="flex flex-col items-center justify-center w-full h-max pb-12 mt-7.5 gap-2.5">
+        <div className="flex flex-col items-center justify-center w-full h-max pb-5 mt-7.5 gap-2.5">
             <button onClick={()=>{navigate('/create-account')}}className={`${buttonStyles} bg-primary text-white `}>
                 Create Account
             </button>

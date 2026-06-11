@@ -11,10 +11,7 @@ const Login = () => {
         const navigate = useNavigate();
         const handleSubmit = (e:React.FormEvent<HTMLFormElement>) => {
             e.preventDefault();
-            console.log("sunbitted");
             addUser('Marry Doe', email);
-            const updatedUser = useStore.getState();
-            console.log(updatedUser.email, updatedUser.name);
             navigate('/account-settings');
         }
       return (

@@ -4,7 +4,7 @@ import camera from "../assets/camera-icon.png"
 const AccountSettings = () => {
     const user = useStore((state) => state);
   return (
-    <div className="flex flex-col items-start w-full h-full pt-5">
+    <div className="flex flex-col items-start w-full h-full py-5">
         <div className="flex flex-col items-start w-full h-full gap-5">
             <h1 className="text-[18px] px-5  leading-[21px] font-rubik font-medium">Account Settings</h1>
         <div className="flex flex-col pt-8 w-full h-full bg-gray-100 gap-6">
@@ -25,7 +25,7 @@ const AccountSettings = () => {
             </div>
         </div>
         </div>
-       <span className="w-full border-t border-dashed border-t-gray-300 pb-8"></span>
+       <span className="w-full border-t border-dashed border-t-gray-300 pb-8 h-max"></span>
     </div>
   )
 }

@@ -35,7 +35,7 @@ const CreateAccount = () => {
     };
 
   return (
-    <div className="flex flex-col items-start w-full h-full px-5 pt-8 gap-3.5">
+    <div className="flex flex-col items-start w-full h-full px-5 py-8 gap-3.5 overflow-hidden">
         <h1 className="text-[28px] leading-9 font-medium font-rubik">
             Create your PopX account
         </h1>
@@ -145,13 +145,15 @@ const CreateAccount = () => {
             </div>
             </div>
     </div>
-              <button 
+              <div className="w-full h-max pb-12">
+                <button 
                 className="bg-primary text-white w-full h-[46px] rounded-[6px] text-[16px] font-rubik font-medium disabled:opacity-[.4] disabled:cursor-not-allowed" 
                 disabled={!formData.fullName || !formData.email || !formData.password} 
                 type="submit"
               >
                 Create Account
             </button>
+              </div>
         </form>
     </div>
   )
